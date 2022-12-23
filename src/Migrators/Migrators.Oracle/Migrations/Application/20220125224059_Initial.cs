@@ -297,7 +297,7 @@ namespace Migrators.Oracle.Migrations.Application
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_UserLogins_LoginProvider_ProviderKey_TenantId",
+                name: "IX_UserLogins_LP_PK_TenantId",
                 schema: "IDENTITY",
                 table: "UserLogins",
                 columns: new[] { "LoginProvider", "ProviderKey", "TenantId" },

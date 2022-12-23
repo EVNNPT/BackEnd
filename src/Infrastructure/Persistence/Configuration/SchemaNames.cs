@@ -3,8 +3,8 @@
 internal static class SchemaNames
 {
     // TODO: figure out how to capitalize these only for Oracle
-    public static string Auditing = "Auditing"; // "AUDITING";
-    public static string Catalog = "Catalog"; // "CATALOG";
-    public static string Identity = "Identity"; // "IDENTITY";
-    public static string MultiTenancy = "MultiTenancy"; // "MULTITENANCY";
+    public static string Auditing = "AUDITING"; // "AUDITING";
+    public static string Catalog = "CATALOG"; // "CATALOG";
+    public static string Identity = "IDENTITY"; // "IDENTITY";
+    public static string MultiTenancy = "MULTITENANCY"; // "MULTITENANCY";
 }

@@ -1,6 +1,6 @@
 {
   "DatabaseSettings": {
-    "DBProvider": "mssql",
-    "ConnectionString": "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=preReleaseTest;Integrated Security=True;MultipleActiveResultSets=True"
+    "DBProvider": "oracle",
+    "ConnectionString": "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.1.1.21)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=FTILIS)));User Id=TEST;Password=12345;"
   }
 }
